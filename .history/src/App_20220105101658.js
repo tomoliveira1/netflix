@@ -65,11 +65,9 @@ export default () => {
         API utilizada: Themoviedb.org
       </footer>
 
-      {movieList.length <= 0 &&
       <div className="loading">
-      <img src="https://media.filmelier.com/noticias/br/2020/03/Netflix_LoadTime.gif"></img>
-    </div>
-      }
+        <img src="https://pa1.narvii.com/6720/5e4615b2ab62db9d6112bbd6605906d444968efc_hq.gif"></img>
+      </div>
     </div>
   );
 };

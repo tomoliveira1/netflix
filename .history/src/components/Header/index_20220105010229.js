@@ -14,8 +14,8 @@ export default ({black}) => {
       </div>
 
       <div className="header--user">
-          <a href="https://www.instagram.com/officialtomellis/">
-              <img src="https://occ-0-1050-1380.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABRmtNzyg7zV6EC3TQGMQqbhKrAGB42lxYLSPWRqTJ_yxIx8W7rL-Abhyr7Goh0TCHU6f2b66nJAZ3sKpsYqw0HIr61mR.png?r=125" alt="Usuário"></img>
+          <a href="#">
+              <img src="https://occ-0-1050-1380.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAAFMAEDzrjFngWzmfzjBwDCp5aArul_aesBXbpYZgdo9FSha3M71rrn_IpfzTfPwpJIAN_zMpj9UOfJXwvOnvDL3OFCA.png?r=f16" alt="Usuário"></img>
           </a>
       </div>
     </header>

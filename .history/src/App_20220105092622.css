@@ -24,24 +24,3 @@ footer {
     text-decoration: none;
     color: rgba(243, 243, 243, 0.267);
 }
-
-.loading {
-    position: fixed;
-    left: 0;
-    right: 0;
-    left: 0;
-    right: 0;
-
-    z-index: 99;
-    background-color: #000;
-    height: 100vh;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.loading img {
-    width: 40%;
-    background-color: #000;
-}

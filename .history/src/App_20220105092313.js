@@ -60,16 +60,11 @@ export default () => {
       </section>
 
       <footer>
-        Feito com muita dedicação pelo <a className="link" href="https://github.com/tomoliveira1" target="_blank">Weverton Oliveira</a> <br/>
-        Direitos de Imagem: netflix.com <br/>
+        Feito com muita dedicação pelo <a href="https://github.com/tomoliveira1" target="_blank">Weverton Oliveira</a>
+        Projeto de estudo front-end
+        Direitos de Imagem: netflix.com
         API utilizada: Themoviedb.org
       </footer>
-
-      {movieList.length <= 0 &&
-      <div className="loading">
-      <img src="https://media.filmelier.com/noticias/br/2020/03/Netflix_LoadTime.gif"></img>
-    </div>
-      }
     </div>
   );
 };

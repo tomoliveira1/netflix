@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, Link } from "react";
 import "./App.css";
 import Tmdb from "./requests";
 import MovieRow from "./components/MovieRow";
@@ -60,16 +60,8 @@ export default () => {
       </section>
 
       <footer>
-        Feito com muita dedicação pelo <a className="link" href="https://github.com/tomoliveira1" target="_blank">Weverton Oliveira</a> <br/>
-        Direitos de Imagem: netflix.com <br/>
-        API utilizada: Themoviedb.org
+        Feito com muita dedicação pelo <Link to="https://github.com/tomoliveira1" target="_blank">Weverton Oliveira</Link>, projeto de estudo front-end
       </footer>
-
-      {movieList.length <= 0 &&
-      <div className="loading">
-      <img src="https://media.filmelier.com/noticias/br/2020/03/Netflix_LoadTime.gif"></img>
-    </div>
-      }
     </div>
   );
 };

@@ -4,7 +4,7 @@ import NavigateBeforeIcon from "@material-ui/icons/NavigateBefore";
 import NavigateNextIcon from "@material-ui/icons/NavigateNext";
 
 export default ({ title, items }) => {
-  const [scrollX, setScrollX] = useState(0);
+  const [scrollX, setScrollX] = useState(-400);
 
   const handleLeftArrow = () => {
     let x = scrollX + Math.round(window.innerWidth /2);
@@ -14,20 +14,7 @@ export default ({ title, items }) => {
     setScrollX(x)
   };
 
-  const handleRightArrow = () => {
-    let x = scrollX - Math.round(window.innerWidth /2);
-
-    //Cálculo para não ultrapassar o limite da tela
-    let listWidth = items.results.length * 150;
-
-    if((window.innerWidth - listWidth) > x) {
-
-      // limite da tela menos o padding
-      x = (window.innerWidth - listWidth) - 60;
-    }
-
-    setScrollX(x)
-  };
+  const handleRightArrow = () => {};
 
   return (
     <div className="movieRow">

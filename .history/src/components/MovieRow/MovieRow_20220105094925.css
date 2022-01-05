@@ -6,13 +6,13 @@
   margin: 0px 0px 0px 30px;
 }
 
-.movieRow--list {
-    transition: all ease 0.4s;
-}
-
 .movieRow--listarea {
   overflow-x: hidden;
   padding-left: 30px;
+}
+
+.movieRow--list {
+  width: 9999px;
 }
 
 .movieRow--item {
@@ -44,7 +44,7 @@
   overflow: hidden;
   cursor: pointer;
   opacity: 0;
-  transition: all ease 0.4s;
+  transition: all ease 0.5s;
 }
 
 .movieRow--left {
@@ -59,11 +59,4 @@
 .movieRow:hover .movieRow--left,
 .movieRow:hover .movieRow--right {
     opacity: 1;
-}
-
-@media (max-width: 760px) {
-    .movieRow--left,
-    .movieRow--right {
-        opacity: 1;
-    }
 }

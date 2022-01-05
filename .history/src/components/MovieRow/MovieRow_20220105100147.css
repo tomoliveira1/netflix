@@ -7,7 +7,7 @@
 }
 
 .movieRow--list {
-    transition: all ease 0.4s;
+    transition: all ease 0.2s;
 }
 
 .movieRow--listarea {
@@ -59,11 +59,4 @@
 .movieRow:hover .movieRow--left,
 .movieRow:hover .movieRow--right {
     opacity: 1;
-}
-
-@media (max-width: 760px) {
-    .movieRow--left,
-    .movieRow--right {
-        opacity: 1;
-    }
 }

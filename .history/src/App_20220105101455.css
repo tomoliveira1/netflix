@@ -34,14 +34,8 @@ footer {
 
     z-index: 99;
     background-color: #000;
-    height: 100vh;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.loading img {
-    width: 40%;
-    background-color: #000;
 }
