@@ -1,0 +1,9 @@
+.featured {
+    height: 100vh;
+}
+
+.featured--portrait {
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top, #111 10%, transparent 90%);
+}
