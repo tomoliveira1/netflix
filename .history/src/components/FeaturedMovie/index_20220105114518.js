@@ -38,7 +38,7 @@ export default ({ item }) => {
             <div className="featured--description">{description}</div>
             <div className="featured--buttons">
               <a href={`/watch/${item.id}`} className="featured--watch__button">
-              ▶ Assistir
+                Assistir
               </a>
               <a
                 className="featured--list__button"
