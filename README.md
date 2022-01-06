@@ -1,22 +1,25 @@
 # Netflix Clone 
 
 # Sobre o Projeto
-Este é um clone da tela da Netflix, utilizando ReactJS. A tela é 100% dinâmica e responsiva, sendo utilizado uma API para carregar as informações de cada contéudo (filmes e séries).
+Clone da página inicial da Netflix, responsiva e dinâmica.
 
-## Layout WEB
-![image](https://user-images.githubusercontent.com/85240595/148227988-931ffb48-58e6-4ec0-8ce0-5f42adb32c09.png)
+## Tela Web
+![image](https://user-images.githubusercontent.com/85240595/148462999-c23d35e8-799e-4e52-91ca-066428084ed9.png)
 
-## Layout Mobile
-![image](https://user-images.githubusercontent.com/85240595/148228607-744fe851-ad58-41bd-9ce0-74fe0be096d0.png)
-![image](https://user-images.githubusercontent.com/85240595/148229831-cdea8dd8-5878-4c07-973d-43888fac4c63.png)
+
+## Tela Mobile
+![image](https://user-images.githubusercontent.com/85240595/148463595-123cae68-cb41-40ec-9fb9-64390c4457e4.png)
+![image](https://user-images.githubusercontent.com/85240595/148463678-3e654431-0440-4bb3-98a3-8281c6b9149e.png)
 
 
 # Tecnologias envolvidas
 - ReactJS
 - HTML - CSS - JavaScript
 
-# Libraries
-Material UI: https://mui.com/pt/getting-started/usage/
+# Ferramentas e API
+API: https://www.themoviedb.org <br/>
+Icons: https://material-ui.com/pt/components/material-icons/<br/>
+Teste de requisições: http://resttesttest.com
 
 # Como Executar
 ### Pré Requisitos: npm
